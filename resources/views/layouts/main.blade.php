@@ -32,22 +32,28 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                <a class="js-scroll-trigger" href="{{url('/home')}}">Filateli Run</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Home</a>
+                <a class="js-scroll-trigger" href="{{url('/home')}}">Home</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">About</a>
+                <a class="js-scroll-trigger" href="{{url('/kategori')}}">Kategori Lari</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#services">Services</a>
+                <a class="js-scroll-trigger" href="{{url('/periode_range')}}">Periode Perlombaan</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+                <a class="js-scroll-trigger" href="{{url('/paket_perlombaan')}}">Paket Perlombaan</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">Contact</a>
+                <a class="js-scroll-trigger" href="{{url('/pembayaran')}}">Pembayaran</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/donasi')}}">Donasi</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/pendaftaran')}}">Pendaftaran</a>
             </li>
         </ul>
     </nav>
@@ -55,11 +61,11 @@
     <!-- Header -->
     <header class="masthead d-flex">
         <div class="container text-center my-auto">
-            <h1 class="mb-1">Stylish Portfolio</h1>
+            <h1 class="mb-1">Filateli Run</h1>
             <h3 class="mb-5">
-                <em>A Free Bootstrap Theme by Start Bootstrap</em>
+                <em>Lari Sambil Berdonasi</em>
             </h3>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <a href="#!" class="btn btn-xl btn-primary">Gabung Sekarang</a>
         </div>
         <div class="overlay"></div>
     </header>
