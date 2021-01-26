@@ -32,13 +32,28 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Filateli Run</a>
+                <a class="js-scroll-trigger" href="{{url('/home')}}">Filateli Run</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Login</a>
+                <a class="js-scroll-trigger" href="{{url('/home')}}">Home</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">Registrasi</a>
+                <a class="js-scroll-trigger" href="{{url('/kategori')}}">Kategori Lari</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/periode_range')}}">Periode Perlombaan</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/paket_perlombaan')}}">Paket Perlombaan</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/pembayaran')}}">Pembayaran</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/donasi')}}">Donasi</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="{{url('/pendaftaran')}}">Pendaftaran</a>
             </li>
         </ul>
     </nav>
@@ -50,7 +65,7 @@
             <h3 class="mb-5">
                 <em>Lari sambil berdonasi</em>
             </h3>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <a href="/login" class="btn btn-xl btn-primary">Gabung Sekarang</a>
         </div>
         <div class="overlay"></div>
     </header>
