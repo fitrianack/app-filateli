@@ -32,22 +32,13 @@
     <nav id="sidebar-wrapper">
         <ul class="sidebar-nav">
             <li class="sidebar-brand">
-                <a class="js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+                <a class="js-scroll-trigger" href="#page-top">Filateli Run</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#page-top">Home</a>
+                <a class="js-scroll-trigger" href="#page-top">Login</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">Contact</a>
+                <a class="js-scroll-trigger" href="#about">Registrasi</a>
             </li>
         </ul>
     </nav>
@@ -55,9 +46,9 @@
     <!-- Header -->
     <header class="masthead d-flex">
         <div class="container text-center my-auto">
-            <h1 class="mb-1">Stylish Portfolio</h1>
+            <h1 class="mb-1">Filateli Run</h1>
             <h3 class="mb-5">
-                <em>A Free Bootstrap Theme by Start Bootstrap</em>
+                <em>Lari sambil berdonasi</em>
             </h3>
             <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
         </div>
@@ -88,7 +79,7 @@
                     </a>
                 </li>
             </ul>
-            <p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>
+            <p class="text-muted small mb-0">Copyright &copy; Filateli Run 2021</p>
         </div>
     </footer>
 
